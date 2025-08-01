@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-# Chargement du modèle avec debug
+# Chargementv du modèle avec debug
 print("Tentative de chargement du modèle...")
 try:
     # Afficher le répertoire courant pour debug
