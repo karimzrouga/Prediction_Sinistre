@@ -10,7 +10,11 @@ best_model = joblib.load('best_model.pkl')
 @app.route('/test', methods=['GET'])
 def test():
     return "TEST DONE"
-
+    
+@app.route('/')
+def home():
+    return "Flask app is running"
+    
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
